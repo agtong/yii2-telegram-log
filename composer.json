@@ -1,0 +1,28 @@
+{
+    "name": "agtong/yii2-telegram-log-target",
+    "homepage": "https://github.com/agtong/yii2-telegram-log-target",
+    "description": "Telegram log target for Yii 2",
+    "keywords": ["yii2-telegram-log-target", "yii2", "yii", "telegram", "log", "logging", "target"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/agtong/yii2-telegram-log-target/issues",
+        "source": "https://github.com/agtong/yii2-telegram-log-target"
+    },
+    "authors": [
+        {
+            "name": "agtong",
+            "email": "agtongatgithub@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "agtong/yii2-telegram-bot": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "agtong\\yii2\\log\\": "src"
+        }
+    }
+}
